@@ -96,7 +96,7 @@ analisis_scRNA/
 
 ##  Instalación
 
-### 1. Clonar el repositorio
+###1. Clonar el repositorio
 
 ```bash
 git clone https://github.com/tu-usuario/analisis_scRNA.git
