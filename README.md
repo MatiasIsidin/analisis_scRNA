@@ -66,15 +66,23 @@ Desarrollar un modelo de clasificación supervisado que permita:
 
 
 analisis_scRNA/
+
 │
 
 ├── data/
+
 │ ├── raw/ # Datos originales (.h5ad)
+
 │ └── processed/ # Datos procesados (.npy)
+
 │
+
 ├── notebooks/ # Análisis y modelado
+
 ├── reports/ # Reportes
+
 ├── requirements.txt # Dependencias
+
 └── README.md # Documentación
 
 
