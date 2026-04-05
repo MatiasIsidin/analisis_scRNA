@@ -94,56 +94,58 @@ analisis_scRNA/
 
 ---
 
-##  Instalación
-
-###1. Clonar el repositorio
-
-```bash
+Instalación
+1. Clonar el repositorio
 git clone https://github.com/tu-usuario/analisis_scRNA.git
+
 cd analisis_scRNA
 
----
-
-### 2. Crear entorno virtual
+2. Crear entorno virtual
 python -m venv scRNA_env
 
 Activar entorno:
 
-Windows:
+- Windows: 
 
 scRNA_env\Scripts\activate
 
-Linux / Mac:
+- Linux / Mac:
 
 source scRNA_env/bin/activate
 
-### 3. Instalar dependencias
+3. Instalar dependencias
 
 pip install -r requirements.txt
 
-### 4. Ejecutar el proyecto
+4. Ejecutar el proyecto
 
 jupyter notebook
 
----
+Luego abrir los notebooks dentro de la carpeta:
 
-Abrir los notebooks dentro de la carpeta notebooks/.
-
- Dataset
+notebooks/
+- Dataset:
 Formato: .h5ad (AnnData)
 328,170 células
 2,000 genes
+
 Incluye:
 Expresión génica (X)
 Metadatos (obs)
 Información de genes (var)
 PCA y UMAP
- Resultados esperados
+
+- Resultados esperados:
 Clasificación automática de células
 Identificación de tipos celulares
 Manejo del desbalance
 Pipeline reproducible
- Reproducibilidad
+
+- Reproducibilidad:
+Uso de random_state=42
+Datos preprocesados guardados
+Archivo requirements.txt incluido
+Encoder guardado (.pkl)
 Uso de random_state=42
 Datos preprocesados guardados
 requirements.txt incluido
