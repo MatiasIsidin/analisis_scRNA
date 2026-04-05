@@ -101,22 +101,31 @@ analisis_scRNA/
 ```bash
 git clone https://github.com/tu-usuario/analisis_scRNA.git
 cd analisis_scRNA
-2. Crear entorno virtual
+
+---
+
+### 2. Crear entorno virtual
 python -m venv scRNA_env
 
 Activar entorno:
 
-Windows
+Windows:
 
 scRNA_env\Scripts\activate
 
-Linux / Mac
+Linux / Mac:
 
 source scRNA_env/bin/activate
-3. Instalar dependencias
+
+### 3. Instalar dependencias
+
 pip install -r requirements.txt
-4. Ejecutar el proyecto
+
+### 4. Ejecutar el proyecto
+
 jupyter notebook
+
+---
 
 Abrir los notebooks dentro de la carpeta notebooks/.
 
