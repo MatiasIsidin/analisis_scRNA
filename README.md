@@ -2,7 +2,7 @@
 
 ## Descripción del proyecto
 
-Este proyecto tiene como objetivo desarrollar un modelo de Machine Learning capaz de **clasificar automáticamente el tipo celular (lineage)** a partir de datos de expresión génica obtenidos mediante secuenciación de ARN a nivel de célula única (**scRNA-seq**).
+Este proyecto tiene como objetivo desarrollar un modelo de Machine Learning capaz de clasificar automáticamente el tipo celular (lineage) a partir de datos de expresión génica obtenidos mediante secuenciación de ARN a nivel de célula única (scRNA-seq).
 
 En este contexto, cada célula es representada por su perfil de expresión génica, lo que permite estudiar la composición celular de un tejido y analizar procesos biológicos complejos.
 
@@ -71,13 +71,19 @@ analisis_scRNA/
 
 ├── data/
 
-│ ├── raw/ # Datos originales (.h5ad)
+│ ├── raw/ #Datos originales (.h5ad)
 
-│ └── processed/ # Datos procesados (.npy)
+│ └── processed/ #datos procesados (.npy)
 
 │
 
-├── notebooks/ # Análisis y modelado
+├── notebooks/
+
+│ ├── exploración/ #Analisis del dataset original
+
+│ └── preprocesamiento/ #Procesado y guardado de los datos 
+
+│
 
 ├── reports/ # Reportes
 
