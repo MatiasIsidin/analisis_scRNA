@@ -96,7 +96,7 @@ analisis_scRNA/
 
 Instalación
 1. Clonar el repositorio
-git clone https://github.com/tu-usuario/analisis_scRNA.git
+git clone https://github.com/MatiasIsidin/analisis_scRNA.git
 
 cd analisis_scRNA
 
