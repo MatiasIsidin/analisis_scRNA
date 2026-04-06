@@ -1,5 +1,15 @@
 scRNA_env/
-data/
+
+data/raw/adata_final.h5ad
+
+data/processed/X_train.npy
+data/processed/X_test.npy
+data/processed/y_train.npy
+data/processed/y_test.npy
+
 *.h5ad
+
+!data/raw/*_10.h5ad
+
 __pycache__/
 .ipynb_checkpoints/
